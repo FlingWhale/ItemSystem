@@ -1,0 +1,14 @@
+{
+    "type": {
+        "name": "Weapon",
+        "type": {
+            "name": "Melee"
+        }
+    },
+    "rarity": "Common",
+    "optionalAttributes": [{
+        "name": "MagicFind"
+    }, {
+        "name": "GoldFind"
+    }]
+}

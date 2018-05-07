@@ -1,0 +1,14 @@
+{
+    "type": {
+        "name": "Weapon"
+    },
+    "rarity": "Common",
+    "optionalAttributes": [{
+        "name": "MagicFind"
+    }, {
+        "name": "GoldFind"
+    }],
+    "requiredAttributes": [{
+        "name": "Damage"
+    }]
+}
