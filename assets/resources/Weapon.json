@@ -1,12 +1,7 @@
 {
-    "type": {
-        "name": "Weapon"
-    },
-    "rarity": "Common",
     "optionalAttributes": [{
-        "name": "MagicFind"
-    }, {
-        "name": "GoldFind"
+        "name": "MagicFind",
+        "multiplier": 5
     }],
     "requiredAttributes": [{
         "name": "Damage"

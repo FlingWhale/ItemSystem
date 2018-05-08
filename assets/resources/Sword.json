@@ -1,13 +1,7 @@
 {
-    "type": {
-        "name": "Weapon",
-        "type": {
-            "name": "Melee",
-            "type": {
-                "name": "Sword"
-            }
-        }
-    },
+    "type": "Weapon",
+    "range": "Melee",
+    "weaponClass": "Sword",
     "rarity": "Common",
     "optionalAttributes": [{
         "name": "MagicFind"
