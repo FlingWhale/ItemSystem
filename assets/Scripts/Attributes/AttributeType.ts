@@ -3,4 +3,6 @@ export enum AttributeType {
     Name = "Name",
     Level = "Level",
     MagicFind = "MagicFind",
+    GoldFind = "GoldFind",
+    
 }

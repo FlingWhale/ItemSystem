@@ -1,7 +1,5 @@
 {
     "optionalAttributes": [{
         "name": "MagicFind"
-    }, {
-        "name": "GoldFind"
     }]
 }

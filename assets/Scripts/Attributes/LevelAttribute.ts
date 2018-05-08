@@ -10,4 +10,10 @@ export class LevelAttribute extends Attribute {
         super(AttributeType.Level);
         this.level = MathUtils.randomInRange(min, max);
     }
+
+    public toString() {
+        let str = super.toString();
+        str += "\n\tValue: " + this.level;
+        return str;
+    }
 }

@@ -69,7 +69,7 @@ export class ItemFileLoader {
                 }
             }
             if (!found) {
-                currentAttr.push(nextAttr);
+                currentAttr.push(next);
             }
         }
     }

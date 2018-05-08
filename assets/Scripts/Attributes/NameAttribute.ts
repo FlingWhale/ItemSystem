@@ -9,4 +9,10 @@ export class NameAttribute extends Attribute {
         super(AttributeType.Name);
         this.name = name;
     }
+
+    public toString() {
+        let str = super.toString();
+        str += "\n\tValue: " + this.name;
+        return str;
+    }
 }

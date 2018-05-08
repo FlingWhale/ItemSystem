@@ -9,4 +9,10 @@ export class MagicFindAttribute extends Attribute {
         super(AttributeType.MagicFind);
         this.magicFind = MathUtils.randomInRange(min, max);
     }
+
+    public toString() {
+        let str = super.toString();
+        str += "\n\tValue: " + this.magicFind;
+        return str;
+    }
 }

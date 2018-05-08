@@ -6,7 +6,13 @@ export class GoldFindAttribute extends Attribute {
     public goldFind: number;
 
     public constructor(min: number, max: number) {
-        super(AttributeType.MagicFind);
+        super(AttributeType.GoldFind);
         this.goldFind = MathUtils.randomInRange(min, max);
+    }
+
+    public toString() {
+        let str = super.toString();
+        str += "\n\tValue: " + this.goldFind;
+        return str;
     }
 }

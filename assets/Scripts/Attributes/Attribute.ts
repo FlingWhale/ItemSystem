@@ -4,6 +4,11 @@ export class Attribute {
     public type: AttributeType;
 
     public constructor(type: AttributeType) {
-        this.type = name;
+        this.type = type;
+    }
+
+    public toString() {
+        const str = "Attribute: " + this.type;
+        return str;
     }
 }

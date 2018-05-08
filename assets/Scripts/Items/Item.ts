@@ -6,13 +6,11 @@ import { NameAttribute } from "../Attributes/NameAttribute";
 import { ItemFiles } from "./ItemFiles";
 
 export class Item {
-    public name: string;
 
     public attributes: Map<AttributeType, Attribute>;
     public constructor(name: string) {
         this.attributes = new Map<AttributeType, Attribute>();
         this.addAttribute(new NameAttribute(name));
-
 
     }
 
@@ -26,6 +24,17 @@ export class Item {
 
     public hasAttribute(attributeType: AttributeType) {
         return this.attributes.has(attributeType);
+    }
+
+    public toString() {
+        let str = "==========\n";
+        this.attributes.forEach((attribute, attributeType, map) => {
+            str += attribute.toString();
+            str += "\n";
+        });
+
+        str += "==========\n\n";
+        return str;
     }
 }
 
